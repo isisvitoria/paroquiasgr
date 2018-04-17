@@ -1,0 +1,29 @@
+<ion-header>
+    <ion-navbar>
+      <button ion-button menuToggle>
+        <ion-icon name="menu"></ion-icon>
+      </button>
+      <ion-title>Institucional</ion-title>
+    </ion-navbar>
+  </ion-header>
+  
+  <ion-content>
+    <ion-list>
+    <ion-item (click)="abrirPaginaHistoria()">
+      <ion-icon name="matriz" item-left></ion-icon>
+        História da Paróquia
+    </ion-item>
+    <ion-item>
+      <ion-icon name="clero" item-left></ion-icon>
+        Clero
+    </ion-item>
+    <ion-item (click)="abrirPaginaPadroeiro()">
+      <ion-icon name="padroeiro" item-left></ion-icon>
+        Padroeiro
+    </ion-item>
+    <ion-item (click)="abrirPaginaComunidades()">
+      <ion-icon name="comunidades" item-left></ion-icon>
+        Comunidades
+    </ion-item>    
+    </ion-list>
+  </ion-content>
